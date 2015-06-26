@@ -1,0 +1,1 @@
+local: sh target/universal/stage/bin/incomm-transaction-processing -Dconfig.resource=application.conf -Xms512m -Xmx4g -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=9010 -Dcom.sun.management.jmxremote.local.only=false -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false
